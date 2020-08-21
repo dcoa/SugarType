@@ -1,0 +1,29 @@
+#informe {
+margin: 20px;
+padding: 0px 0 40px;
+border-bottom: 2px solid var(--secondary-color);
+}
+#informe > p {
+color: var(--title-color);
+margin-bottom: 30px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+ul li{
+  font-size: 18px;
+  display: inline-block;
+  margin: 10px;
+}
+
+ul li span{
+  float: right;
+}
+
+button{
+  margin: auto;
+}
