@@ -11,7 +11,7 @@
     font-family: 'ciclegordita';
     src: url('./fonts/cicle_gordita-webfont.woff2') format('woff2'),
          url('./fonts/cicle_gordita-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
 }
 
@@ -24,7 +24,7 @@
 }
 
 :root {
-    --main-color: #32776E;
+    --main-color: #058C99;
     --secondary-color: #8AC8C0;
     --orange-color: #EB6D30;
     --orangeS-buttons: #F19E76;
@@ -116,8 +116,8 @@ body{
     background-color: var(--main-color);
     margin-top: 20px;
     width: 300px;
-    height: 30px;
-    border-radius: 15px;
+    height: 40px;
+    border-radius: 25px;
     border: 2px solid white;
     color: white;
     font-family: 'ciclesemi';
@@ -130,17 +130,18 @@ body{
 }
 .sendButton {
     background-color: var(--green-color);
-    padding: 5px;
+    padding: 10px;
     margin-top: 20px;
     width: 300px;
-    height: 30px;
-    border-radius: 15px;
-    color: var(--main-color);
+    height: 40px;
+    border-radius: 25px;
+    color: black;
     border: 2px solid var(--green-color);
     display: flex;
     justify-content: space-around;
     font-family: 'ciclegordita';
     font-size: 16px;
+    font-weight: bold;
     
 }
 #signIn{
@@ -152,7 +153,8 @@ body{
 }
 #signIn > a {
     text-decoration: none;
-    color: #16c8f2;
+    color: rgb(238, 213, 159);
+    font-size: 16px;
 }
 
                        
