@@ -1,8 +1,6 @@
-
 @font-face {
-    font-family: 'lemon_milkregular';
-    src: url('./fonts/lemonmilk-regular-webfont.woff2') format('woff2'),
-         url('./fonts/lemonmilk-regular-webfont.woff') format('woff');
+    font-family: 'lemonmilk';
+    src: url('./fonts/LEMONMILK-Regular.otf') format('woff2');
     font-weight: normal;
     font-style: normal;
 
@@ -32,7 +30,7 @@
     --purple-color: #8E356A;
     --pink-color: #E390C2;
     --green-color: #A3D35F;
-    --button-radius: 14px; 
+    --button-radius: 14px;
 }
 
 .headerControl{
@@ -61,12 +59,12 @@
 .tituloCosControl{
     color:var(--main-color);
     font-size: 40px;
-        
+
 }
 h1{
     font-size: 30px;
     color:whitesmoke;
-    font-family: 'lemon_milkregular';
+    font-family: 'lemonmilk';
 }
 .logoHeader{
     width: 86px;
@@ -78,57 +76,3 @@ h1{
     height: auto;
 
 }
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
