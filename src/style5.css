@@ -1,0 +1,62 @@
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sectionMedicamentos{
+    margin-top: 20px;
+    width: 75vw;
+    
+}
+
+label{
+    display: flex;
+    justify-content: space-between;
+}
+
+.medicamentos{
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    border: 2px solid var(--secondary-color);
+    color: black;
+    font-family: 'ciclesemi';
+    font-size: 16px;
+}
+.medicamentos ::placeholder{
+    padding-left: 20px;
+    color: black;
+    opacity: 0.5;
+}
+
+.dosis{
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    border: 2px solid var(--secondary-color);
+    color: black;
+    font-family: 'ciclesemi';
+    font-size: 16px;
+}
+
+.sendButton3 {
+    background-color: var(--main-color);
+    padding: 10px;
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    color: white;
+    border: 2px solid var(--main-colorr);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'ciclegordita';
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
