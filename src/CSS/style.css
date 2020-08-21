@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'lemon_milkregular';
+    src: url('./fonts/LEMONMILK-Regular.otf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ciclegordita';
+    src: url('./fonts/cicle_gordita-webfont.woff2') format('woff2'),
+         url('./fonts/cicle_gordita-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ciclesemi';
+    src: url('./fonts/cicle_semi-webfont.woff2') format('woff2'),
+         url('./fonts/cicle_semi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --main-color: #058C99;
+    --secondary-color: #8AC8C0;
+    --orange-color: #EB6D30;
+    --orangeS-buttons: #F19E76;
+    --purple-color: #8E356A;
+    --pink-color: #E390C2;
+    --green-color: #A3D35F;
+    --button-radius: 14px;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'ciclesemi';
+}
+
+.headerControl{
+    background-color: var(--main-color);
+    width: 100%;
+    height: 50;
+    display: flex;
+    justify-content: space-around;
+}
+
+.headerNutricion{
+    background-color: var(--orange-color);
+    width: 303px;
+    height: 50;
+    display: flex;
+    justify-content: space-around;
+}
+
+.headerComunidad{
+    background-color: var(--purple-color);
+    width: 303px;
+    height: 50;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tittles {
+    color:var(--main-color);
+    font-family: 'lemon_milkregular';
+    font-size: 20px;
+    margin-bottom: 3px solid var(--main-color);
+}
+
+.logoHeader{
+    width: 86px;
+    height: 61px;
+}
+
+
+.bodyLogIn{
+    background-color: var(--main-color);
+    width: 100%;
+    height: auto;
+}
+
+.contenedorLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.logoLogin {
+    text-align: center;
+    background-color: var(--main-color);
+    max-width: 500px;
+    margin-top: 100px;
+
+}
+.imagenLogin {
+    width: 200px;
+    height: auto;
+    justify-content: center;
+    margin: auto;
+}
+.gridLogin {
+    background-color: var(--main-color);
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin: auto;
+    justify-content: space-around;
+}
+.filded{
+    background-color: var(--main-color);
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    border-radius: 25px;
+    border: 2px solid white;
+    color: white;
+    font-family: 'ciclesemi';
+    font-size: 16px;
+}
+::placeholder {
+    padding-left: 20px;
+    color: rgb(253, 253, 253);
+    opacity: 1;
+}
+.sendButton {
+    background-color: var(--green-color);
+    padding: 10px;
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    border-radius: 25px;
+    color: black;
+    border: 2px solid var(--green-color);
+    display: flex;
+    justify-content: space-around;
+    font-family: 'ciclegordita';
+    font-size: 16px;
+    font-weight: bold;
+
+}
+#signIn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+#signIn > a {
+    text-decoration: none;
+    color: rgb(238, 213, 159);
+    font-size: 16px;
+}

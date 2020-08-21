@@ -4,14 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SugarType</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
-<body>
-<header class="headerControl">
-    <h1>probando si funciona</h1>
-    <div class="logoHeader"><img src="./imagenes/Logo.png" alt=""></div>
-    
-</header>
+<body class ="bodyLogIn">
+    <main class="contenedorLogin"> 
+        <section class="logoLogin">
+          <img class="imagenLogin" src="./imagenes/Logo.png">
+        </section>
+        <form class="gridLogin" id= 'formulario'>
+        <label><input type="email" id="correo" class="filded" placeholder="Correo"></label>
+        <label><input type="password" id="contrasena" class="filded" placeholder="Contraseña"> </label>
+        <label> <button type= 'submit' class= 'sendButton' id = 'enviarLogin' Onclick = "changePage ()" >Iniciar sesión</button>
+        </form>
+        <p id="signIn">¿Deseas crear una cuenta? <a href="">Regístrate</a> </p> 
+    </main>
+        
+
     <script type= "module" src="main.js"></script>
 </body>
 </html>
