@@ -13,11 +13,17 @@
 </header>
 <section class= "contenedorMicontrol">
     <h1 class= "tittles">MI CONTROL</h1>
-    <button type="button" class= 'sendButton2' onclick= "location.href ='glucometrias3.html'">Cómo va mi día</button>
-    <button type="button" class= 'sendButton2' onclick= "location.href ='medicamentos5.html'">Medicamentos</button>
-    <button type="button" class= 'sendButton2' onclick= "location.href ='examenes6.html'">Exámenes de laboratorio</button>
-    <button type="button" class= 'sendButton2' onclick= "location.href ='doctor8.html'">Agenda médica</button>
+    <button type="button" class= "sendButton2" id ="buttonGlucometrias">Cómo va mi día</button>
+    <button type="button" class= "sendButton2" id= "buttonMedicamentos">Medicamentos</button>
+    <button type="button" class= "sendButton2" id="buttonExamenes">Exámenes de laboratorio</button>
+    <button type="button" class= "sendButton2" id="buttonDoctor">Agenda médica</button>
 </section>
+<!--<script> 
+    function turnPageC() { 
+        window.location.href = './Views/glucometrias3.html'; 
+    }
+    document.querySelector('#buttonGlucometrias').addEventListener('click', turnPageC)
+</script>-->
     <script type="module" src="../main.js"></script>
 </body>
 </html>
