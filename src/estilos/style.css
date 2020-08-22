@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'lemon_milkregular';
-    src: url('/fonts/LEMONMILK-Regular.otf') format('woff2');
+    src: url('../fuentes/LEMONMILK-Regular.otf') format('woff2');
     font-weight: normal;
     font-style: normal;
 
@@ -8,16 +8,16 @@
 
 @font-face {
     font-family: 'ciclegordita';
-    src: url('/fonts/cicle_gordita-webfont.woff2') format('woff2'),
-         url('/fonts/cicle_gordita-webfont.woff') format('woff');
+    src: url('../fuentes/cicle_gordita-webfont.woff2') format('woff2'),
+         url('../fuentes/cicle_gordita-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'ciclesemi';
-    src: url('/fonts/cicle_semi-webfont.woff2') format('woff2'),
-         url('/fonts/cicle_semi-webfont.woff') format('woff');
+    src: url('../fuentes/cicle_semi-webfont.woff2') format('woff2'),
+         url('../fuentes/cicle_semi-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
