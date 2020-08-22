@@ -1,7 +1,6 @@
-
 @font-face {
     font-family: 'lemon_milkregular';
-    src: url('./fonts/LEMONMILK-Regular.otf') format('woff2');
+    src: url('/fonts/LEMONMILK-Regular.otf') format('woff2');
     font-weight: normal;
     font-style: normal;
 
@@ -9,29 +8,30 @@
 
 @font-face {
     font-family: 'ciclegordita';
-    src: url('./fonts/cicle_gordita-webfont.woff2') format('woff2'),
-         url('./fonts/cicle_gordita-webfont.woff') format('woff');
+    src: url('/fonts/cicle_gordita-webfont.woff2') format('woff2'),
+         url('/fonts/cicle_gordita-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'ciclesemi';
-    src: url('./fonts/cicle_semi-webfont.woff2') format('woff2'),
-         url('./fonts/cicle_semi-webfont.woff') format('woff');
+    src: url('/fonts/cicle_semi-webfont.woff2') format('woff2'),
+         url('/fonts/cicle_semi-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 :root {
     --main-color: #058C99;
+    --title-color: #28655A;
     --secondary-color: #8AC8C0;
     --orange-color: #EB6D30;
     --orangeS-buttons: #F19E76;
     --purple-color: #8E356A;
     --pink-color: #E390C2;
     --green-color: #A3D35F;
-    --button-radius: 14px; 
+    --button-radius: 14px;
 }
 
 *{
@@ -50,7 +50,7 @@ body{
     width: 100%;
     height: 50;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 .headerNutricion{
@@ -70,15 +70,19 @@ body{
 }
 
 .tittles {
-    color:var(--main-color);
+    color:var(--title-color);
     font-family: 'lemon_milkregular';
-    font-size: 20px;
-    margin-bottom: 3px solid var(--main-color);
+    font-weight: lighter;
+    font-size: 40px;
+    border-bottom: 3px solid var(--secondary-color);
+    padding: 30px 0px 30px;
+    margin: 20px;
 }
 
 .logoHeader{
     width: 86px;
     height: 61px;
+    margin-left: 15%;
 }
 
 
@@ -93,19 +97,21 @@ body{
     flex-direction: column;
     justify-content: space-around;
 }
+
 .logoLogin {
     text-align: center;
     background-color: var(--main-color);
     max-width: 500px;
     margin-top: 100px;
-    
 }
+
 .imagenLogin {
     width: 200px;
     height: auto;
     justify-content: center;
     margin: auto;
 }
+
 .gridLogin {
     background-color: var(--main-color);
     display: flex;
@@ -125,11 +131,13 @@ body{
     font-family: 'ciclesemi';
     font-size: 16px;
 }
+
 ::placeholder {
     padding-left: 20px;
     color: rgb(253, 253, 253);
     opacity: 1;
 }
+
 .sendButton {
     background-color: var(--green-color);
     padding: 10px;
@@ -144,8 +152,25 @@ body{
     font-family: 'ciclegordita';
     font-size: 16px;
     font-weight: bold;
-    
 }
+
+.sendButton2 {
+    background-color: var(--secondary-color);
+    color: white;
+    border: 2px solid var(--secondary-color);
+}
+
+.back-icon {
+  margin: auto 30px;
+  padding: 0px;
+}
+.back-icon::after{
+  left: 20px;
+  float: left;
+  width: 200%;
+  content: url(../imagenes/back.png);
+}
+
 #signIn{
     display: flex;
     justify-content: space-between;
@@ -158,58 +183,3 @@ body{
     color: rgb(238, 213, 159);
     font-size: 16px;
 }
-
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
