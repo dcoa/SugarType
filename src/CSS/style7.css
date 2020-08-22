@@ -1,0 +1,41 @@
+#doctores{
+  display flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 20px;
+}
+ul li{
+  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--secondary-color);
+  border-radius: var(--button-radius);
+}
+
+ul li img{
+  width: 50px;
+  margin: 0 30px;
+  border-radius: 100px;
+}
+
+.sendButton{
+  display: block;
+  margin: 30px auto;
+}
+
+.back-icon {
+  margin: auto 30px;
+  padding: 0px;
+}
+.back-icon::after{
+  left: 20px;
+  float: left;
+  width: 200%;
+  content: url(../imagenes/back.png);
+}
+
+header >.logoHeader{
+  margin-left: 15%;
+}
