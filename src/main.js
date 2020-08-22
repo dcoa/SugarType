@@ -1,5 +1,5 @@
 
- const db = firebase.firestore();
+
 //Inicio sesion
 const formLogin = document.querySelector("#formLogin");
 if(formLogin)
@@ -71,6 +71,9 @@ linkInicio.addEventListener("click", (e) => {e.preventDefault();
 //const db = firebase.firestore();
 const sendGluco = document.querySelector(".sendButton3");
 const formGluco = document.querySelector("#formGluco");
+
+/*const db = localStorage.getItem("db");
+console.log(db);*/
 
 if(formGluco)
 formGluco.addEventListener("submit", async (e) => { e.preventDefault();
