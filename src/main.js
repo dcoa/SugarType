@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 
 
-=======
->>>>>>> 7e5b14300f3aff3e14ba9a3b807ddffccbb1e947
 //Inicio sesion
 const formLogin = document.querySelector("#formLogin");
 if(formLogin)
