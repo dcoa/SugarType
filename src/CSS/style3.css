@@ -7,8 +7,19 @@ main{
 section{
     width: 80vw;
     height: 100vh;
-    
 }
+
+.containerChecbox{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.checkboxInput{
+    border: 1px;
+
+}
+
 label{
     display: flex;
     justify-content: space-between;
@@ -30,7 +41,7 @@ label{
 }
 
 
-#formGluco{
+.formGluco{
     margin-top:40px;
 
 }
