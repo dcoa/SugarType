@@ -1,0 +1,49 @@
+#informe {
+margin: 20px;
+padding: 0px 0 40px;
+border-bottom: 2px solid var(--secondary-color);
+}
+#informe > p {
+color: var(--title-color);
+margin-bottom: 30px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+ul li{
+  font-size: 18px;
+  display: inline-block;
+  margin: 10px;
+}
+
+span{
+  float: right;
+}
+
+button{
+  margin: auto;
+}
+
+#hipoDia{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 0px 0 40px;
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.fecha{
+  float: none;
+  margin-left: 15%;
+}
+
+p{
+  padding: 20px;
+}
+p b{
+  color: var(--title-color);
+}
