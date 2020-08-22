@@ -1,4 +1,3 @@
-Sugar Type 
 <p align ="center"> <img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/Portada_Mesa%20de%20trabajo%201.png"> </p>
 
 ## Sugar Type (Hacking por la desigualdad )
@@ -36,7 +35,7 @@ En la actualidad 1 de cada 11 personas en el mundo padecen de diabetes, la tasa 
 Aunque en temas tecnológicos existen grandes avances, como lo son: el sensor de monitoreo continuo en bombas de insulina, o el último mas reciente el free style libre, estos tratamientos resultan verdaderamente costosos e imposibles de ofrecer a todo el público. Por lo tanto se recurre a tratamientos tradicionales de inyección y monitoreo los cuales se quedan muchas veces cortos por la poca cantidad de datos que genera el paciente. 
 Por lo tanto, queremos avanzar al mismo ritmo de estos tratamientos costosos para poder garantizar un buen control en cualquier paciente con diabetes sin importar el tipo de tratamiento que utilice, llevando una solución digital, ágil y sencilla de entender que facilite la toma de decisiones de una manera dateada.
 
-<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/contexto-06.png" width="250">
+<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/contexto-06.png">
 
 ## 3. Usuarios
 En esta investigación creamos 4 perfiles de usuarios, para lo cual tuvimos en cuenta el tratamiento que tenían, y la forma como veían su condición. Todos atraviesan por una fase de confusión y desorientación durante el tratamiento, la poca información dada y el poco conocimiento de cómo llevar un control es lo que ha causado en cada uno complicaciones en su salud. En el caso de las mujeres, los cambios hormonales inciden en los ajustes de la medicación, especialmente durante la ovulación y menstruación. 
@@ -47,16 +46,15 @@ Usuario: Abnegados - Se angustian demasiado por su futuro y el presente, ven su 
 Usuario: Diabético Tipo 3 (Familiares) - Puede que no padezca la enfermedad pero la vive en el día a día con un familiar, debe aprender toda la información posible para ayudar correctamente a su pariente cercano.
 ## 4. Prototipo de alta fidelidad 
 Posterior a la investigación UX conocer nuestros usuarios y entender cuales eran realmente sus necesidades, construimos los prototipos de baja fidelidad y realizamos las primeras iteraciones con ellos. Recolectamos datos de la retroalimentación recibida y con base en ella creamos nuestro prototipo de alta fidelidad:
-<img src="https://github.com/ljohanaalvarez/SugarType/tree/master/src/imagenes/iPhone%206%2C%207%2C%208%20Plus%20–%2013.png" width="250">
-<img src="https://github.com/ljohanaalvarez/SugarType/tree/master/src/imagenes/iPhone%206%2C%207%2C%208%20Plus%20–%2017.png" width="250">
-<img src="https://github.com/ljohanaalvarez/SugarType/tree/master/src/imagenes/iPhone%206%2C%207%2C%208%20Plus%20–%2018.png" width="250">
-<img src="https://github.com/ljohanaalvarez/SugarType/tree/master/src/imagenes/iPhone%206%2C%207%2C%208%20Plus%20–%2019.png" width="250">
-<img src="https://github.com/ljohanaalvarez/SugarType/tree/master/src/imagenes/iPhone%206%2C%207%2C%208%20Plus%20–%2020.png" width="250">
-<img src="https://github.com/ljohanaalvarez/SugarType/tree/master/src/imagenes/iPhone%206%2C%207%2C%208%20Plus%20–%2021.png" width="250">
-<img src="https://github.com/ljohanaalvarez/SugarType/tree/master/src/imagenes/iPhone%206%2C%207%2C%208%20Plus%20–%2022.png" width="250">
-<img src="https://github.com/ljohanaalvarez/SugarType/tree/master/src/imagenes/iPhone%206%2C%207%2C%208%20Plus%20–%2023.png" width="250">
-<img src="https://github.com/ljohanaalvarez/SugarType/tree/master/src/imagenes/iPhone%206%2C%207%2C%208%20Plus%20–%2024.png" width="250">
-<img src="https://github.com/ljohanaalvarez/SugarType/tree/master/src/imagenes/iPhone%206%2C%207%2C%208%20Plus%20–%2025.png" width="250">
+<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/iPhone%206%2C%207%2C%208%20Plus%20%E2%80%93%2013.png" width="250">
+<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/iPhone%206%2C%207%2C%208%20Plus%20%E2%80%93%2018.png" width="250">
+<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/iPhone%206%2C%207%2C%208%20Plus%20%E2%80%93%2019.png" width="250">
+<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/iPhone%206%2C%207%2C%208%20Plus%20%E2%80%93%2020.png" width="250">
+<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/iPhone%206%2C%207%2C%208%20Plus%20%E2%80%93%2021.png" width="250">
+<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/iPhone%206%2C%207%2C%208%20Plus%20%E2%80%93%2022.png" width="250">
+<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/iPhone%206%2C%207%2C%208%20Plus%20%E2%80%93%2023.png" width="250">
+<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/iPhone%206%2C%207%2C%208%20Plus%20%E2%80%93%2024.png" width="250">
+<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/iPhone%206%2C%207%2C%208%20Plus%20%E2%80%93%2025.png" width="250">
 
 	
 ##  5. Usabilidad
