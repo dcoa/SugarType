@@ -93,6 +93,7 @@ body{
     flex-direction: column;
     justify-content: space-around;
 }
+
 .logoLogin {
     text-align: center;
     background-color: var(--main-color);
@@ -100,20 +101,24 @@ body{
     margin-top: 100px;
     
 }
+
 .imagenLogin {
     width: 200px;
     height: auto;
     justify-content: center;
     margin: auto;
 }
+
 .gridLogin {
     background-color: var(--main-color);
     display: flex;
     flex-wrap: wrap;
     max-width: 500px;
     margin: auto;
+    padding-top: 80px;
     justify-content: space-around;
 }
+
 .filded{
     background-color: var(--main-color);
     margin-top: 20px;
@@ -130,6 +135,7 @@ body{
     color: rgb(253, 253, 253);
     opacity: 1;
 }
+
 .sendButton {
     background-color: var(--green-color);
     padding: 10px;
@@ -144,8 +150,28 @@ body{
     font-family: 'ciclegordita';
     font-size: 16px;
     font-weight: bold;
+    cursor: pointer;
     
 }
+
+#mensajeInicio{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    color:black;
+    cursor: pointer;
+}
+
+#mensajeRegistro{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    color:black;
+    cursor: pointer;
+}
+
 #signIn{
     display: flex;
     justify-content: space-between;
@@ -153,10 +179,15 @@ body{
     text-align: center;
     color: white;
 }
+
 #signIn > a {
     text-decoration: none;
     color: rgb(238, 213, 159);
     font-size: 16px;
+}
+
+#containerRegistry{
+    display: none;
 }
 
                        
