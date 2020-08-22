@@ -9,22 +9,54 @@ section{
     height: 100vh;
 }
 
-.containerChecbox{
+#containerChecbox {
+  display: block;
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
+}
+div label input {
+   margin-right:100px;
+}
+
+.ck-button {
+  display: flex;
+  align-items: center;
+  margin:4px;
+  background-color:#EFEFEF;
+  border-radius:14px;
+  border:1px solid #D0D0D0;
 
 }
 
-.checkboxInput{
-    border: 1px;
-
+.ck-button > label {
+  margin: auto;
+  width:100px;
+  height: 50px;
+  align-items: center;
 }
+
+.ck-button > label span {
+  width: 100%;
+    text-align:center;
+    display:block;
+}
+
+.ck-button > label input {
+    position:absolute;
+    top:-20px;
+}
+
+.ck-button input:checked + span {
+    color:var(--main-color);
+}
+
 
 label{
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
-    
+
 }
 
 .labelEat{
@@ -44,21 +76,4 @@ label{
 .formGluco{
     margin-top:40px;
 
-}
-
-.sendButton3 {
-    background-color: var(--secondary-color);
-    padding: 10px;
-    margin-top: 20px;
-    width: 300px;
-    height: 40px;
-    border-radius: 20px;
-    color: white;
-    border: 2px solid var(--secondary-color);
-    display: flex;
-    justify-content: space-around;
-    font-family: 'ciclegordita';
-    font-size: 16px;
-    font-weight: bold;
-    
 }

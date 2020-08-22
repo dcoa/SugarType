@@ -15,21 +15,35 @@
     <section>
 
         <form action="" class="formGluco" id = "formGluco">
-            <div id="containerChecbox">
-                <input class="checkboxInput" type="checkbox" value= "Desayuno" name="comida"> Desayuno
-                <input class="checkboxInput" type="checkbox" value= "Almuerzo"name="comida"> Almuerzo
-                <input class="checkboxInput" type="checkbox" value= "Cena"name="comida"> Cena
-            </div>
+          <div id="containerChecbox">
+            <div class="ck-button">
+               <label>
+                  <input class="checkboxInput" type="checkbox" value= "Desayuno" name="comida"><span>Desayuno</span>
+               </label>
+             </div>
+             <div class="ck-button">
+                <label>
+                   <input class="checkboxInput" type="checkbox" value= "Almuerzo"name="comida"><span>Almuerzo</span>
+                </label>
+              </div>
+             <div class="ck-button">
+                <label>
+                   <input class="checkboxInput" type="checkbox" value= "Cena"name="comida"> <span>Cena</span>
+                </label>
+              </div>
+          </div>
+
             <label for="">Glucometría preprandial <input type="text" required placeholder=""class="inputUp" id = "glucoPreprandial"></label>
-            <label for="" class="labelEat"> Alimentos consumidos <input type="text" required id = "foods"></label>
+            <label for="" class="labelEat"> Alimentos consumidos <textarea rows="10" cols="50" required id = "foods"></textarea></label>
             <label for="">Carbohidratos totales: <input type="text" required class="inputUp" id = carbohydrates></label>
             <label for="">Glucometría 2 horas después: <input type="text" required class="inputUp" id = "glucoPostprandial"></label>
             <input class="checkboxPeriodo" type="checkbox" value= "Sí"name="periodo"> ¿Se encuentra en su periodo?
-            <button type="submit" class= 'sendButton3'>Enviar</button>
+            <button type="submit" class= "sendButton sendButton2">Enviar</button>
         </form>
 
     </section>
 </main>
+
     <script type= "module" src="../main.js"></script>
     <script type= "module" src="../firebaseconfig.js"></script>
     
