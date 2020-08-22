@@ -18,7 +18,7 @@
                 <label> <button type= "submit" class= "sendButton" id = "enviarLogin" >Iniciar sesión</button>
                 <p id="mensajeInicio"></p>
             </form>
-            <p id="signIn">¿Deseas crear una cuenta? <a href=""  id= "linkRegistar">Regístrate</a></p> 
+            <p id="signIn">¿Deseas crear una cuenta? <a href=""  id= "linkRegistar">Regístrate</a></p>
         </div>
         <div id= "containerRegistry">
         <form class="gridLogin" id= "formRegistry">
@@ -30,13 +30,13 @@
             </form>
         </div>
     </main>
-      
-    
+
+
     <!-- FIREBASE SCRIPTS-->
 
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
-    
+
     <!-- TODO: Add SDKs for Firebase products that you want to use
         https://firebase.google.com/docs/web/setup#available-libraries -->
 
@@ -58,8 +58,9 @@
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     const auth = firebase.auth();
-    
-    
+    const db = firebase.firestore();
+    localStorage.setItem("db", db);
+    console.log(db)
     </script>
     <script type= "module" src="main.js"></script>
 </body>

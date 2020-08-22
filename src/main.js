@@ -1,5 +1,3 @@
-
- const db = firebase.firestore();
 //Inicio sesion
 const formLogin = document.querySelector("#formLogin");
 if(formLogin)
@@ -12,8 +10,8 @@ formLogin.addEventListener("submit", (e) => {e.preventDefault();
     console.log(correoInicio, contrasenaInicio);
 
     auth.signInWithEmailAndPassword(correoInicio, contrasenaInicio)
-    .then(userCredential => { 
-        console.log("Ingreso"); 
+    .then(userCredential => {
+        console.log("Ingreso");
             return window.location.href = './Views/micontrol2.html';
     })
     .catch (err => {
@@ -28,7 +26,7 @@ formLogin.addEventListener("submit", (e) => {e.preventDefault();
 
 });
 
-//Registrar usuario 
+//Registrar usuario
 const formRegistry = document.querySelector("#formRegistry");
 if(formRegistry)
 formRegistry.addEventListener("submit", (e) => {e.preventDefault();
@@ -39,15 +37,15 @@ formRegistry.addEventListener("submit", (e) => {e.preventDefault();
     console.log(correoRegistro, contrasenaRegistro);
 
     auth.createUserWithEmailAndPassword(correoRegistro, contrasenaRegistro)
-    .then(userCredential => { 
-        console.log("Registro"); 
+    .then(userCredential => {
+        console.log("Registro");
             return window.location.href = './Views/micontrol2.html';
     })
     .catch (err => {
         console.log("Usuario registrado");
         mensajeRegistro.innerHTML = "Usuario ya registrado, inicie sesión";
     })
-    
+
 });
 
 const linkRegistar = document.querySelector("#linkRegistar");
@@ -102,16 +100,11 @@ formGluco.addEventListener("submit", async (e) => { e.preventDefault();
     localStorage.setItem("checkboxInput",checkboxInput);
     localStorage.setItem("checkboxPeriodo",checkboxPeriodo);
 
-    
+
     Let glucoPrep = localStorage.getItem("glucoPreprandial");*/
 
-    
-    
+
+
 
 
    // return window.location.href = './informe4.html';
-
-
-
-
-

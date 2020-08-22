@@ -1,0 +1,34 @@
+#examenes{
+  display flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 20px;
+}
+ul{
+  margin-top: 30px;
+}
+ul li{
+  display: block;
+  padding: 20px;
+  border-bottom: 1px solid #000;
+}
+
+ul li a{
+  color: var(--title-color);
+  float: right;
+}
+
+.back-icon {
+  margin: auto 30px;
+  padding: 0px;
+}
+.back-icon::after{
+  left: 20px;
+  float: left;
+  width: 200%;
+  content: url(../imagenes/back.png);
+}
+
+header >.logoHeader{
+  margin-left: 15%;
+}
