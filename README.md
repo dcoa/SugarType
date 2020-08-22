@@ -1,5 +1,5 @@
 Sugar Type 
-<p align ="center"> <img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/Portada_Mesa%20de%20trabajo%201.png" width="300"> </p>
+<p align ="center"> <img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/Portada_Mesa%20de%20trabajo%201.png"> </p>
 
 ## Sugar Type (Hacking por la desigualdad )
 ##  Índice
