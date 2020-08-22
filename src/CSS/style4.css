@@ -3,6 +3,7 @@ margin: 20px;
 padding: 0px 0 40px;
 border-bottom: 2px solid var(--secondary-color);
 }
+
 #informe > p {
 color: var(--title-color);
 margin-bottom: 30px;
@@ -24,8 +25,10 @@ span{
   float: right;
 }
 
-button{
+.sendButton{
+  display: block;
   margin: auto;
+  margin-bottom: 30px;
 }
 
 #hipoDia{
@@ -46,4 +49,19 @@ p{
 }
 p b{
   color: var(--title-color);
+}
+
+.back-icon {
+  margin: auto 30px;
+  padding: 0px;
+}
+.back-icon::after{
+  left: 20px;
+  float: left;
+  width: 200%;
+  content: url(../imagenes/back.png);
+}
+
+header >.logoHeader{
+  margin-left: 15%;
 }
