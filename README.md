@@ -46,15 +46,20 @@ Usuario: Abnegados - Se angustian demasiado por su futuro y el presente, ven su 
 Usuario: Diabético Tipo 3 (Familiares) - Puede que no padezca la enfermedad pero la vive en el día a día con un familiar, debe aprender toda la información posible para ayudar correctamente a su pariente cercano.
 ## 4. Prototipo de alta fidelidad 
 Posterior a la investigación UX conocer nuestros usuarios y entender cuales eran realmente sus necesidades, construimos los prototipos de baja fidelidad y realizamos las primeras iteraciones con ellos. Recolectamos datos de la retroalimentación recibida y con base en ella creamos nuestro prototipo de alta fidelidad:
-<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/iPhone%206%2C%207%2C%208%20Plus%20%E2%80%93%2013.png" width="250">
-<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/iPhone%206%2C%207%2C%208%20Plus%20%E2%80%93%2018.png" width="250">
-<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/iPhone%206%2C%207%2C%208%20Plus%20%E2%80%93%2019.png" width="250">
-<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/iPhone%206%2C%207%2C%208%20Plus%20%E2%80%93%2020.png" width="250">
-<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/iPhone%206%2C%207%2C%208%20Plus%20%E2%80%93%2021.png" width="250">
-<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/iPhone%206%2C%207%2C%208%20Plus%20%E2%80%93%2022.png" width="250">
-<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/iPhone%206%2C%207%2C%208%20Plus%20%E2%80%93%2023.png" width="250">
-<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/iPhone%206%2C%207%2C%208%20Plus%20%E2%80%93%2024.png" width="250">
-<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/iPhone%206%2C%207%2C%208%20Plus%20%E2%80%93%2025.png" width="250">
+<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/1.png" width="250">
+<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/2.png" width="250">
+<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/3.png" width="250">
+<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/4.png" width="250">
+<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/5.png" width="250">
+<img src= "https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/6.png" width="250">
+<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/7.png" width="250">
+<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/8.png" width="250">
+<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/9.png" width="250">
+<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/10.png" width="250">
+<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/11.png" width="250">
+<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/12.png" width="250">
+<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/13.png" width="250">
+<img src="https://github.com/ljohanaalvarez/SugarType/blob/master/src/imagenes/14.png" width="250">
 
 	
 ##  5. Usabilidad
