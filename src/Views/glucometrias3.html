@@ -33,16 +33,50 @@
               </div>
           </div>
 
-            <label for="">Glucometría preprandial <input type="text" required placeholder=""class="inputUp" id = "glucoPreprandial"></label>
+            <label for="">Glucometría preprandial mg/dl. <input type="text" required placeholder=""class="inputUp" id = "glucoPreprandial"></label>
             <label for="" class="labelEat"> Alimentos consumidos <textarea rows="10" cols="50" required id = "foods"></textarea></label>
-            <label for="">Carbohidratos totales: <input type="text" required class="inputUp" id = carbohydrates></label>
-            <label for="">Glucometría 2 horas después: <input type="text" required class="inputUp" id = "glucoPostprandial"></label>
-            <input class="checkboxPeriodo" type="checkbox" value= "Sí"name="periodo"> ¿Se encuentra en su periodo?
+            <label for="">Carbohidratos totales gr. <input type="text" required class="inputUp" id = carbohydrates></label>
+            <label for="">Glucometría 2 horas después mg/dl. <input type="text" required class="inputUp" id = "glucoPostprandial"></label>
+            <label for="">¿Se encuentra en su periodo?
+            <input class="checkboxPeriodo" type="checkbox" value= "No"name="periodo"> No
+            <input class="checkboxPeriodo" type="checkbox" value= "Sí"name="periodo"> Si
+            </label>
             <button type="submit" class= "sendButton sendButton2">Enviar</button>
         </form>
 
     </section>
 </main>
+
+ <!-- FIREBASE SCRIPTS-->
+
+ <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-auth.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-firestore.js"></script>
+
+ <script>
+
+ // Your web app's Firebase configuration
+ var firebaseConfig = {
+     apiKey: "AIzaSyAmGEQQKWh0Of2pT-yMp3fGWmyoPgaSwes",
+     authDomain: "sugartype-d4f16.firebaseapp.com",
+     databaseURL: "https://sugartype-d4f16.firebaseio.com",
+     projectId: "sugartype-d4f16",
+     storageBucket: "sugartype-d4f16.appspot.com",
+     messagingSenderId: "1011385604605",
+     appId: "1:1011385604605:web:5cac92b96c03030b90a194"
+ };
+ // Initialize Firebase    
+ 
+ firebase.initializeApp(firebaseConfig);
+     
+ const db = firebase.firestore();
+ const auth = firebase.auth();
+
+ /*localStorage.setItem("db", db);
+ localStorage.setItem("auth", auth);*/
+
+ 
+ </script>
 
     <script type= "module" src="../main.js"></script>
      
