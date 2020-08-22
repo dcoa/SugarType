@@ -1,3 +1,5 @@
+
+ const db = firebase.firestore();
 //Inicio sesion
 const formLogin = document.querySelector("#formLogin");
 if(formLogin)
@@ -66,32 +68,50 @@ linkInicio.addEventListener("click", (e) => {e.preventDefault();
     containerLogIn.style.display= "block";
 });
 
-formulario.addEventListener("submit", (e) =>{e.preventDefault();
-    window.location.href = "./Views/micontrol2.html";
-})
-
-
-
+//const db = firebase.firestore();
 const sendGluco = document.querySelector(".sendButton3");
 const formGluco = document.querySelector("#formGluco");
-const checkboxInput = document.querySelector(".checkboxInput");
 
-checkboxInput.addEventListener("change", (e) =>{
-    
-    console.log(e.target.value);
-
-})
-
-
-formGluco.addEventListener("submit", (e) => { e.preventDefault();
+if(formGluco)
+formGluco.addEventListener("submit", async (e) => { e.preventDefault();
     console.log("funciono");
     const glucoPreprandial = document.querySelector("#glucoPreprandial").value;
     const foods = document.querySelector("#foods").value;
     const carbohydrates = document.querySelector("#carbohydrates").value;
     const glucoPostprandial = document.querySelector("#glucoPostprandial").value;
-    console.log(glucoPreprandial,foods,carbohydrates,glucoPostprandial);
+    const checkboxInput = document.querySelector('input[name = "comida"]:checked').value;
+    const checkboxPeriodo = document.querySelector('input[name = "periodo"]:checked').value;
 
-})
+    const data = await db.collection("users").doc().set({
+        glucoPreprandial,
+        foods,
+        carbohydrates,
+        glucoPostprandial,
+        checkboxInput,
+        checkboxPeriodo
+    })
+    console.log(data)
+});
+
+
+
+    /*localStorage.setItem("glucoPreprandial",glucoPreprandial);
+    localStorage.setItem("foods",foods);
+    localStorage.setItem("carbohydrates",carbohydrates);
+    localStorage.setItem("glucoPostprandial",glucoPostprandial);
+    localStorage.setItem("checkboxInput",checkboxInput);
+    localStorage.setItem("checkboxPeriodo",checkboxPeriodo);
+
+    
+    Let glucoPrep = localStorage.getItem("glucoPreprandial");*/
+
+    
+    
+
+
+   // return window.location.href = './informe4.html';
+
+
 
 
 
