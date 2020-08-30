@@ -4,40 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SugarType</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/style4.css">
+    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="stylesheet" href="../estilos/style4.css">
 </head>
 <body>
 <header class="headerControl">
   <a  class="back-icon" href="glucometrias3.html"></a>
-  <img src="/imagenes/Logo.png" alt="" class="logoHeader">
+  <img src="../imagenes/Logo.png" alt="" class="logoHeader">
 </header>
   <main>
     <h1 class= "tittles">INFORME</h1>
     <section id="informe">
       <p>Automáticamente generamos un informe de los últimos 7 días del cual se muestra un promedio de</p>
       <ul>
-        <li>Glucosa antes del desayuno <span>###</span></li>
-        <li>Carbohidratos en el desayuno <span>###</span></li>
-        <li>Glucosa después del desayuno <span>###</span></li>
-        <li>Glucosa antes del almuezo <span>###</span></li>
-        <li>Carbohidratos en el cenar <span>###</span></li>
-        <li>Glucosa después del cena <span>###</span></li>
-        <li>Glucosa después del cenar <span>###</span></li>
+        <li>Glucosa antes del desayuno mg/dl. <span id="infoPreBreakfast">###</span></li>
+        <li>Carbohidratos en el desayuno gr. <span id="infoCarbohidratesBreakfast">###</span></li>
+        <li>Glucosa después del desayuno mg/dl. <span id="infoPostBreakfast">###</span></li>
+
+        <li>Glucosa antes del almuerzo mg/dl. <span id="infoPreLunch">###</span></li>
+        <li>Carbohidratos en el almuerzo gr. <span id="infoCarbohidratesLunch">###</span></li>
+        <li>Glucosa después del almuerzo mg/dl. <span id="infoPostLunch">###</span></li>
+
+        <li>Glucosa antes de cenar mg/dl. <span id="infoPreDinner">###</span></li>
+        <li>Carbohidratos en el cenar gr. <span id="infoCarbohidratesDinner">###</span></li>
+        <li>Glucosa después del cenar mg/dl. <span id="InfoPostDinner">###</span></li>
+        <li>¿Se encuentra en su periodo? <span id="InfoPeriodo">###</span></li>
       </ul>
     </section>
     <section  id="hipoDia">
-      <p><b>Hiperglucemia</b><span class="fecha">24/45/2019</span><span>###</span></p>
+      <p><b>Hiperglucemia</b><span class="fecha">19/08/2020</span><span>368mg/dl</span></p>
       <p>Alimentos ingeridos</p>
-      <p></p>
-      <p>Carbohidratos<span>###</span></p>
-      <p><b>Hipoglucemia</b><span class="fecha">24/45/2019</span><span>###</span></p>
+      <p>Ajiaco</p>
+      <p>Carbohidratos<span>90gr</span></p>
+      <p><b>Hipoglucemia</b><span class="fecha">21/08/2020</span><span>56mg/dl</span></p>
       <p>Alimentos ingeridos</p>
-      <p></p>
-      <p>Carbohidratos<span>###</span></p>
+      <p>1 vaso de leche 12gr con 2 cucharadas de chocolyne 2gr</p>
+      <p>Carbohidratos<span>14gr</span></p>
     </section>
-    <button type="button" name="button" class="sendButton sendButton2">OK</button>
+    <button type="button" name="button" class="sendButton sendButton2" onclick= "location.href ='micontrol2.html'">OK</button>
   </main>
+
+   <!-- FIREBASE SCRIPTS-->
+
+   <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-auth.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-firestore.js"></script>
+
+   <script>
+
+   // Your web app's Firebase configuration
+   var firebaseConfig = {
+       apiKey: "AIzaSyAmGEQQKWh0Of2pT-yMp3fGWmyoPgaSwes",
+       authDomain: "sugartype-d4f16.firebaseapp.com",
+       databaseURL: "https://sugartype-d4f16.firebaseio.com",
+       projectId: "sugartype-d4f16",
+       storageBucket: "sugartype-d4f16.appspot.com",
+       messagingSenderId: "1011385604605",
+       appId: "1:1011385604605:web:5cac92b96c03030b90a194"
+   };
+   // Initialize Firebase    
+   
+   firebase.initializeApp(firebaseConfig);
+       
+   const db = firebase.firestore();
+   const auth = firebase.auth();
+
+   /*localStorage.setItem("db", db);
+   localStorage.setItem("auth", auth);*/
+
+   
+   </script>
 
 
   <script type= "module" src="../main.js"></script>

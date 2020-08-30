@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SugarType</title>
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./estilos/style.css">
+    
 </head>
 <body class ="bodyLogIn">
     <main class="contenedorLogin">
@@ -34,17 +35,12 @@
 
     <!-- FIREBASE SCRIPTS-->
 
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
-
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-        https://firebase.google.com/docs/web/setup#available-libraries -->
-
     <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-firestore.js"></script>
 
-
     <script>
+
     // Your web app's Firebase configuration
     var firebaseConfig = {
         apiKey: "AIzaSyAmGEQQKWh0Of2pT-yMp3fGWmyoPgaSwes",
@@ -55,13 +51,19 @@
         messagingSenderId: "1011385604605",
         appId: "1:1011385604605:web:5cac92b96c03030b90a194"
     };
-    // Initialize Firebase
+    // Initialize Firebase    
+    
     firebase.initializeApp(firebaseConfig);
-    const auth = firebase.auth();
+        
     const db = firebase.firestore();
-    localStorage.setItem("db", db);
-    console.log(db)
+    const auth = firebase.auth();
+
+    /*localStorage.setItem("db", db);
+    localStorage.setItem("auth", auth);*/
+
+    
     </script>
+
     <script type= "module" src="main.js"></script>
 </body>
 </html>

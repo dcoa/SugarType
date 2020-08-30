@@ -1,3 +1,5 @@
+
+
 //Inicio sesion
 const formLogin = document.querySelector("#formLogin");
 if(formLogin)
@@ -11,11 +13,11 @@ formLogin.addEventListener("submit", (e) => {e.preventDefault();
 
     auth.signInWithEmailAndPassword(correoInicio, contrasenaInicio)
     .then(userCredential => {
-        console.log("Ingreso");
+    
             return window.location.href = './Views/micontrol2.html';
     })
     .catch (err => {
-        console.log(err);
+        
         if (err.code === "auth/user-not-found"){
                 mensajeInicio.innerHTML = "Usuario no registrado, por favor regístrese";
         }
@@ -34,15 +36,13 @@ formRegistry.addEventListener("submit", (e) => {e.preventDefault();
     const contrasenaRegistro = document.querySelector("#contrasenaRegistro").value;
     const mensajeRegistro = document.querySelector("#mensajeRegistro");
 
-    console.log(correoRegistro, contrasenaRegistro);
-
     auth.createUserWithEmailAndPassword(correoRegistro, contrasenaRegistro)
     .then(userCredential => {
-        console.log("Registro");
+        
             return window.location.href = './Views/micontrol2.html';
     })
     .catch (err => {
-        console.log("Usuario registrado");
+        
         mensajeRegistro.innerHTML = "Usuario ya registrado, inicie sesión";
     })
 
@@ -66,9 +66,10 @@ linkInicio.addEventListener("click", (e) => {e.preventDefault();
     containerLogIn.style.display= "block";
 });
 
-//const db = firebase.firestore();
+
 const sendGluco = document.querySelector(".sendButton3");
 const formGluco = document.querySelector("#formGluco");
+
 
 if(formGluco)
 formGluco.addEventListener("submit", async (e) => { e.preventDefault();
@@ -88,8 +89,51 @@ formGluco.addEventListener("submit", async (e) => { e.preventDefault();
         checkboxInput,
         checkboxPeriodo
     })
-    console.log(data)
+   
+    return window.location.href = './informe4.html';
+    
 });
+
+const infoPreBreakfast = document.querySelector("#infoPreBreakfast");
+const infoCarbohidratesBreakfast = document.querySelector("#infoCarbohidratesBreakfast");
+const infoPostBreakfast = document.querySelector("#infoPostBreakfast");
+
+const infoPreLunch = document.querySelector("#infoPreLunch");
+const infoCarbohidratesLunch = document.querySelector("#infoCarbohidratesLunch");
+const infoPostLunch = document.querySelector("#infoPostLunch");
+
+const infoPreDinner = document.querySelector("#infoPreDinner");
+const infoCarbohidratesDinner = document.querySelector("#infoCarbohidratesDinner");
+const InfoPostDinner = document.querySelector("#InfoPostDinner");
+
+const InfoPeriodo = document.querySelector("#InfoPeriodo");
+
+let getUsers = db.collection("users").doc("person") 
+
+    getUsers.get().then(function(doc) {
+            if (doc.exists) {
+            
+                infoPreBreakfast.innerHTML = doc.data().glucoPreprandial;
+                infoCarbohidratesBreakfast.innerHTML  = doc.data().carbohydrates;
+                infoPostBreakfast.innerHTML = doc.data().glucoPostprandial;
+
+                infoPreLunch.innerHTML = doc.data().glucoPreprandial;
+                infoCarbohidratesLunch.innerHTML  = doc.data().carbohydrates;
+                infoPostLunch.innerHTML = doc.data().glucoPostprandial;
+
+                infoPreDinner.innerHTML = doc.data().glucoPreprandial;
+                infoCarbohidratesDinner.innerHTML  = doc.data().carbohydrates;
+                InfoPostDinner.innerHTML = doc.data().glucoPostprandial;
+
+                InfoPeriodo.innerHTML = doc.data().checkboxPeriodo;
+            } 
+    })
+       
+
+
+
+
+
 
 
 
@@ -99,12 +143,9 @@ formGluco.addEventListener("submit", async (e) => { e.preventDefault();
     localStorage.setItem("glucoPostprandial",glucoPostprandial);
     localStorage.setItem("checkboxInput",checkboxInput);
     localStorage.setItem("checkboxPeriodo",checkboxPeriodo);
-
-
     Let glucoPrep = localStorage.getItem("glucoPreprandial");*/
 
 
 
 
 
-   // return window.location.href = './informe4.html';
